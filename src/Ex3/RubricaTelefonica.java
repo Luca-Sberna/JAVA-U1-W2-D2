@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Esercizio3 {
+public class RubricaTelefonica {
 
 	private Map<String, String> rubrica = new HashMap<>();
 
@@ -36,7 +36,7 @@ public class Esercizio3 {
 	}
 
 	public static void main(String[] args) {
-		Esercizio3 rubrica = new Esercizio3();
+		RubricaTelefonica rubrica = new RubricaTelefonica();
 		Scanner scanner = new Scanner(System.in);
 
 		while (true) {
